@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='bayesian-optimization',
+    name='neural_decoding',
     version='0.1.0',
     url='https://github.com/ledochowitsch/Neural_Decoding/',
     packages=find_packages(),
