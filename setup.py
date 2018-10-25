@@ -2,16 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name='bayesian-optimization',
-    version='0.6.0',
-    url='https://github.com/fmfn/BayesianOptimization',
+    version='0.1.0',
+    url='https://github.com/ledochowitsch/Neural_Decoding.git'
     packages=find_packages(),
-    author='Fernando Nogueira',
-    author_email="fmfnogueira@gmail.com",
-    description='Bayesian Optimization package',
-    download_url='https://github.com/fmfn/BayesianOptimization/tarball/0.6',
+    author='Kording_Lab',
+    author_email="kording@gmail.com",
+    description='NeuralDecoder',
+    download_url='https://github.com/ledochowitsch/Neural_Decoding.git,
     install_requires=[
-        "numpy >= 1.9.0",
-        "scipy >= 0.14.0",
-        "scikit-learn >= 0.18.0",
     ],
 )
